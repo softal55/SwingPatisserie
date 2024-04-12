@@ -4,7 +4,8 @@
         "name":"Name1",
         "price": 250,
         "image":"Images/Food_images/pies/gateau01.jpg",
-        "alt": "gateau01"
+        "alt": "gateau01",
+        "description":""
 
     },
     {
@@ -12,7 +13,8 @@
         "name":"Name2",
         "price": 300,
         "image":"Images/Food_images/pies/gateau02.jpg",
-        "alt": "gateau02"
+        "alt": "gateau02",
+        "description":""
 
     },
     {
@@ -20,14 +22,16 @@
         "name":"Name3",
         "price": 100,
         "image":"Images/Food_images/pies/gateau03.jpg",
-        "alt": "gateau03"
+        "alt": "gateau03",
+        "description":""
     },
     {
         "id":4,
         "name":"name4",
         "price": 150,
         "image":"Images/Food_images/pies/gateau04.jpg",
-        "alt": "gateau04"
+        "alt": "gateau04",
+        "description":""
 
     },
     {
@@ -35,13 +39,82 @@
         "name":"name5",
         "price": 0.00,
         "image":"Images/Food_images/pies/gateau05.jpg",
-        "alt": "gateau05"
+        "alt": "gateau05",
+        "description":""
     },
     {
         "id":6,
         "name":"name6",
         "price": 0.00,
         "image":"Images/Food_images/pies/gateau06.jpg",
-        "alt": "gateau06"
+        "alt": "gateau06",
+        "description":""
+    },
+    {
+        "id":7,
+        "name":"name7",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau07.jpg",
+        "alt": "gateau07",
+        "description":""
+    },
+    {
+        "id":1,
+        "name":"Name1",
+        "price": 250,
+        "image":"Images/Food_images/pies/gateau01.jpg",
+        "alt": "gateau01",
+        "description":""
+
+    },
+    {
+        "id":2,
+        "name":"Name2",
+        "price": 300,
+        "image":"Images/Food_images/pies/gateau02.jpg",
+        "alt": "gateau02",
+        "description":""
+
+    },
+    {
+        "id":3,
+        "name":"Name3",
+        "price": 100,
+        "image":"Images/Food_images/pies/gateau03.jpg",
+        "alt": "gateau03",
+        "description":""
+    },
+    {
+        "id":4,
+        "name":"name4",
+        "price": 150,
+        "image":"Images/Food_images/pies/gateau04.jpg",
+        "alt": "gateau04",
+        "description":""
+
+    },
+    {
+        "id":5,
+        "name":"name5",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau05.jpg",
+        "alt": "gateau05",
+        "description":""
+    },
+    {
+        "id":6,
+        "name":"name6",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau06.jpg",
+        "alt": "gateau06",
+        "description":""
+    },
+    {
+        "id":7,
+        "name":"name7",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau07.jpg",
+        "alt": "gateau07",
+        "description":""
     }
 ]
