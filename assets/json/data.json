@@ -1,7 +1,7 @@
 [ 
     { 
         "id":1, 
-        "name":"Tacos au chocolat", 
+        "name":"Rocher au chocolat", 
         "price": 250, 
         "image":"Images/Food_images/pies/gateau01.jpg", 
         "alt": "gateau01", 
