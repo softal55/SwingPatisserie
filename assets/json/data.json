@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "name":"Name1",
+        "price": 250,
+        "image":"Images/Food_images/pies/gateau01.jpg",
+        "alt": "gateau01"
+
+    },
+    {
+        "id":2,
+        "name":"Name2",
+        "price": 300,
+        "image":"Images/Food_images/pies/gateau02.jpg",
+        "alt": "gateau02"
+
+    },
+    {
+        "id":3,
+        "name":"Name3",
+        "price": 100,
+        "image":"Images/Food_images/pies/gateau03.jpg",
+        "alt": "gateau03"
+    },
+    {
+        "id":4,
+        "name":"name4",
+        "price": 150,
+        "image":"Images/Food_images/pies/gateau04.jpg",
+        "alt": "gateau04"
+
+    },
+    {
+        "id":5,
+        "name":"name5",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau05.jpg",
+        "alt": "gateau05"
+    },
+    {
+        "id":6,
+        "name":"name6",
+        "price": 0.00,
+        "image":"Images/Food_images/pies/gateau06.jpg",
+        "alt": "gateau06"
+    }
+]

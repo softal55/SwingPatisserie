@@ -1,0 +1,49 @@
+@import url(/Shared/fonts.css);
+
+#title {
+  padding-left: 20px;
+  letter-spacing: 2px;
+}
+#shoping-list .food img {
+  width: 90%;
+  height: 200px;
+  object-fit: cover;
+}
+#shoping-list {
+  padding: 0px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 70px;
+}
+.add-to-cart {
+  background-color: purple;
+  border: none;
+  color: white;
+  width: 90%;
+  height: 15%;
+  margin-top: -5px;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background-color: rgb(182, 0, 182);
+}
+.sub {
+  width: 90%;
+}
+#food-name {
+  color: purple;
+  font-family: ArbutusSlab;
+  font-size: 20px;
+  margin-top: 2px;
+  float: left;
+  letter-spacing: 2px;
+}
+#price {
+  letter-spacing: 2px;
+  float: right;
+  font-size: 20px;
+  margin-top: 2px;
+}

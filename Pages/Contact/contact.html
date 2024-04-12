@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swing Contact</title>
+    <link rel="stylesheet" href="/Shared/header.css" />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+
+  <body>
+    <header id="main-header">
+      <img id="swing-logo" src="/Images/logo.png" alt="Swing Logo" />
+      <nav>
+        <ul class="nav-list">
+          <li><a href="/index.html" id="homelink">HOME</a></li>
+          <li><a href="/Pages/Pie/pie.html" id="pielink">FOOD</a></li>
+          <li>
+            <a href="/Pages/Contact/contact.html" id="contactlink">CONTACT</a>
+          </li>
+          <li><a href="/Pages/About/about.html" id="aboutlink">ABOUT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <h1>Contact us!</h1>
+      <form action="contact.html" method="post" id="contactForm">
+        <fieldset>
+          <legend>Your information</legend>
+          <label for="firstname">First Name</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            placeholder="Enter your first name"
+          />
+          <label for="lastname">Last Name</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            placeholder="Enter your last name"
+          />
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="Algeria">Algeria</option>
+          </select>
+
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" name="birthday" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </fieldset>
+        <fieldset>
+          <legend>The reason you are contacting us</legend>
+          <label>I have a</label><br />
+          <input
+            type="radio"
+            id="question"
+            name="contactReason"
+            value="Question"
+            checked
+          />
+          <label for="question">Question</label><br />
+          <input type="radio" id="remark" name="contactReason" value="Remark" />
+          <label for="remark">Remark</label><br />
+          <input
+            type="radio"
+            id="complaint"
+            name="contactReason"
+            value="Complaint"
+          />
+          <label for="complaint">Complaint</label>
+          <label for="question">Your question</label>
+          <textarea
+            id="question"
+            name="question"
+            placeholder="Write your text here"
+            style="height: 150px"
+          ></textarea>
+        </fieldset>
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
