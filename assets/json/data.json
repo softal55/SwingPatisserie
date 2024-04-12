@@ -5,8 +5,7 @@
         "price": 250, 
         "image":"Images/Food_images/pies/gateau01.jpg", 
         "alt": "gateau01", 
-        "description":"" 
- 
+        "description":"Le rocher au chocolat, chef-d'œuvre de la pâtisserie, est une symphonie de textures et de saveurs qui éblouit les sens dès le premier regard. Sa coque de chocolat noir, finement ouvragée, offre une expérience tactile exquise, alliant croquant et velouté dans chaque bouchée. Sous cette enveloppe craquante se dévoile un trésor fondant, un mélange irrésistible de chocolat fondu et de noisettes grillées, qui libère un bouquet d'arômes riches et envoûtants. Lorsqu'on le déguste, chaque sensation est une invitation au plaisir : le craquement délicat de la coque cède la place à la douceur onctueuse de l'intérieur, tandis que les saveurs intenses du cacao et les notes chaudes des noisettes dansent en harmonie sur le palais, offrant une expérience gustative inoubliable. Le rocher au chocolat n'est pas seulement une gourmandise, c'est un véritable chef-d'œuvre culinaire qui ravit les sens et éveille l'âme à la beauté de la création sucrée." 
     }, 
     { 
         "id":2, 
@@ -14,7 +13,7 @@
         "price": 70, 
         "image":"Images/Food_images/pies/gateau02.jpg", 
         "alt": "gateau02", 
-        "description":"" 
+        "description":"Dans l'univers des délices sucrés, le donut se présente comme une œuvre d'art comestible, captivant le regard avec sa forme parfaite et son allure alléchante. Imaginez un anneau de pâte tendre et dorée, paré d'un glaçage soyeux qui scintille sous la lumière, invitant chaque sens à succomber à sa tentation. Ce petit chef-d'œuvre de la pâtisserie offre une symphonie de textures et de saveurs : à la première bouchée, la pâte moelleuse se fond en une explosion de délices sucrés, révélant le contraste entre la douceur fondante de la mie et la légère résistance de la croûte. Que ce soit avec un glaçage onctueux aux parfums envoûtants, des éclats de chocolat croquant, ou une simple pluie de sucre scintillant, chaque donut est une expérience unique, une invitation à savourer le bonheur en une seule bouchée." 
  
     }, 
     { 
@@ -23,7 +22,7 @@
         "price": 50, 
         "image":"Images/Food_images/pies/gateau03.jpg", 
         "alt": "gateau03", 
-        "description":"" 
+        "description":"Le macaron, joyau de la pâtisserie française, séduit par sa beauté élégante et son goût exquis. Imaginez une symphonie de saveurs et de textures parfaitement équilibrées : une coque croquante à l'extérieur, délicieusement légère et fondante à l'intérieur, renfermant un trésor de crème ou de ganache aux parfums envoûtants. Chaque macaron est une œuvre d'art miniature, soigneusement confectionnée pour émerveiller les sens. Du pastel délicat de ses coques à sa ganache veloutée, chaque détail est pensé avec précision pour créer une expérience gustative inoubliable. Que ce soit pour une touche de luxe dans un moment spécial ou simplement pour s'offrir une douceur quotidienne, le macaron est bien plus qu'une gourmandise : c'est une expérience sensorielle qui transporte l'esprit dans un voyage de délices sucrés." 
     }, 
     { 
         "id":4, 
@@ -31,7 +30,7 @@
         "price": 80, 
         "image":"Images/Food_images/pies/gateau04.jpg", 
         "alt": "gateau04", 
-        "description":"" 
+        "description":"L'éclair, symbole d'élégance et de raffinement dans le monde de la pâtisserie, est une merveille culinaire qui éveille tous les sens. Imaginez une longue éclatante de couleur dorée, délicatement ciselée à la surface, offrant une promesse de croquant et de légèreté à chaque bouchée. Sa coque parfaitement cuite renferme un trésor de crème onctueuse ou de ganache richement parfumée, créant un équilibre exquis entre la douceur veloutée et la texture délicate. Que ce soit par son glaçage lustré et coloré qui capte la lumière, ou par les motifs artistiques qui ornent sa surface, chaque éclair est une œuvre d'art comestible, un testament à l'artisanat et à la créativité de la pâtisserie française. Déguster un éclair, c'est s'immerger dans un univers de plaisirs sucrés où chaque sensation est une découverte, chaque saveur une révélation, faisant de chaque bouchée un moment de pur délice et d'émerveillement." 
  
     }, 
     { 
@@ -40,7 +39,7 @@
         "price": 100, 
         "image":"Images/Food_images/pies/gateau05.jpg", 
         "alt": "gateau05", 
-        "description":"" 
+        "description":"La ganache au chocolat, incarnation de la luxure chocolatée, est une fusion divine de crémeux et d'intensité cacaotée. Imaginez un mélange velouté et lustré, né de la rencontre entre la crème fraîche et les riches éclats de chocolat noir. Chaque cuillerée révèle une symphonie de saveurs, où la douceur lactée de la crème se marie harmonieusement avec la profondeur complexe du cacao, créant une expérience gustative aussi indulgente qu'irrésistible. Que ce soit enrobant un gâteau, garnissant un éclair ou simplement dégustée à la cuillère, la ganache au chocolat est bien plus qu'une simple garniture : c'est une caresse pour l'âme des amateurs de chocolat, une invitation à plonger dans un océan de délices chocolatés où chaque sensation est un plaisir pur et intense." 
     }, 
     { 
         "id":6, 
@@ -48,7 +47,7 @@
         "price": 120, 
         "image":"Images/Food_images/pies/gateau06.jpg", 
         "alt": "gateau06", 
-        "description":"" 
+        "description":"La verrine à la fraise, joyau de fraîcheur et de gourmandise, est une symphonie de saveurs et de textures qui éveille les sens dès le premier regard. Imaginez une coupe transparente, dévoilant en son sein des couches exquises de douceur et de fraîcheur : une base croquante de biscuit émietté, suivie d'une couche onctueuse de crème fouettée vanillée, puis couronnée de dés de fraises juteuses et sucrées. Chaque cuillerée est une exploration de contrastes délicieux : la légère acidité des fraises fraîchement cueillies se mêle à la douceur veloutée de la crème, tandis que la texture croustillante du biscuit apporte une dimension supplémentaire de plaisir à cette symphonie de saveurs. Servie dans sa coupe transparente, la verrine à la fraise est non seulement un régal pour les papilles, mais aussi un ravissement pour les yeux, évoquant l'abondance des fruits de saison et l'art de la pâtisserie dans toute sa splendeur." 
     }, 
     { 
         "id":7, 
@@ -56,7 +55,7 @@
         "price": 400, 
         "image":"Images/Food_images/pies/gateau07.jpg", 
         "alt": "gateau07", 
-        "description":"" 
+        "description":"La tarte au citron, délice acidulé et exquis, est une œuvre d'art culinaire qui éblouit par sa simplicité raffinée et son explosion de saveurs. Imaginez une croûte dorée et croustillante, parfaitement cuite pour offrir une base solide à la générosité du citron. Sur cette toile de pâte, une crème onctueuse et veloutée, d'une teinte jaune éclatante, captivant le regard autant que le palais. Chaque cuillerée révèle un équilibre parfait entre l'acidité vive du citron fraîchement pressé et la douceur subtile du sucre, enveloppant les papilles dans une sensation de fraîcheur et de satisfaction. Servie avec une touche de zeste de citron râpé pour une explosion supplémentaire de saveurs, chaque bouchée de cette tarte est une expérience gustative inoubliable, un hommage à la simplicité élégante et à la perfection des ingrédients naturels." 
     }, 
     { 
         "id":1, 
