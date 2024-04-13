@@ -20,9 +20,7 @@ function openDetailsInNewTab(itemId) {
   newWindow.onload = function () {
     const item = foodList.find((i) => i.id === itemId);
     if (item) {
-      var content = document.createElement("div");
-      content.innerHTML = `<img src="/${item.image}" alt="${item.alt}"><p>${item.description}</p><button></button>`;
-      this.document.getElementById("description").appendChild(content);
+      this.document.getElementById("description").innerHTML = `<img id="food-img" src="/${item.image}" alt="${item.alt}"><p id="food-desc">${item.description} <h2>${item.price} Da</h2></p> <button>Add To Cart</button>`;
     }
   };
 }

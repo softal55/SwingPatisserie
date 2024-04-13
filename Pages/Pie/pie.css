@@ -41,6 +41,9 @@
   float: left;
   letter-spacing: 2px;
 }
+#food-name:hover{
+  cursor: pointer;
+}
 #price {
   letter-spacing: 2px;
   float: right;
