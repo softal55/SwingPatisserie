@@ -58,62 +58,54 @@
         "description":"La tarte au citron, délice acidulé et exquis, est une œuvre d'art culinaire qui éblouit par sa simplicité raffinée et son explosion de saveurs. Imaginez une croûte dorée et croustillante, parfaitement cuite pour offrir une base solide à la générosité du citron. Sur cette toile de pâte, une crème onctueuse et veloutée, d'une teinte jaune éclatante, captivant le regard autant que le palais. Chaque cuillerée révèle un équilibre parfait entre l'acidité vive du citron fraîchement pressé et la douceur subtile du sucre, enveloppant les papilles dans une sensation de fraîcheur et de satisfaction. Servie avec une touche de zeste de citron râpé pour une explosion supplémentaire de saveurs, chaque bouchée de cette tarte est une expérience gustative inoubliable, un hommage à la simplicité élégante et à la perfection des ingrédients naturels." 
     }, 
     { 
-        "id":1, 
-        "name":"Name1", 
-        "price": 250, 
-        "image":"Images/Food_images/pies/gateau01.jpg", 
-        "alt": "gateau01", 
-        "description":"" 
- 
-    }, 
-    { 
-        "id":2, 
-        "name":"Name2", 
-        "price": 300, 
-        "image":"Images/Food_images/pies/gateau02.jpg", 
-        "alt": "gateau02", 
-        "description":"" 
- 
-    }, 
-    { 
-        "id":3, 
-        "name":"Name3", 
-        "price": 100, 
-        "image":"Images/Food_images/pies/gateau03.jpg", 
-        "alt": "gateau03", 
-        "description":"" 
-    }, 
-    { 
-        "id":4, 
-        "name":"name4", 
+        "id":8, 
+        "name":"Mini quiches", 
         "price": 150, 
-        "image":"Images/Food_images/pies/gateau04.jpg", 
-        "alt": "gateau04", 
-        "description":"" 
+        "image":"Images/Food_images/salty/salty01.jpg", 
+        "alt": "salty01", 
+        "description":"Les mini quiches sont de délicieuses petites bouchées semblables à des tartelettes salées, mais de taille réduite. Elles sont préparées avec une base de pâte brisée ou feuilletée, puis garnies d'un mélange de crème, d'œufs et de divers ingrédients comme du fromage, des légumes, de la viande ou du poisson. Ces garnitures peuvent être adaptées selon les goûts et les préférences personnelles. Une fois les mini quiches garnies, elles sont cuites au four jusqu'à ce qu'elles soient dorées et que la garniture soit bien prise.Les mini quiches sont souvent servies comme hors-d'œuvre lors de réceptions, de fêtes ou de buffets, mais elles peuvent également être appréciées comme collation ou repas léger. Leur petite taille les rend pratiques à manger et elles sont souvent appréciées pour leur saveur savoureuse et leur texture délicieusement fondante. Les combinaisons d'ingrédients pour les mini quiches sont infinies, ce qui permet une grande variété de saveurs et de styles pour satisfaire tous les palais." 
  
     }, 
     { 
-        "id":5, 
-        "name":"name5", 
-        "price": 0.00, 
-        "image":"Images/Food_images/pies/gateau05.jpg", 
-        "alt": "gateau05", 
-        "description":"" 
+        "id":9, 
+        "name":"Mini Burger viande", 
+        "price": 150, 
+        "image":"Images/Food_images/salty/salty02.jpg", 
+        "alt": "salty02", 
+        "description":"Un mini burger sale est un petit hamburger préparé avec du pain moelleux, une portion de viande hachée assaisonnée de façon savoureuse, du fromage fondu, des légumes croquants et une sauce maison riche en saveurs. Le tout est assemblé de manière à former un mini burger délicieux et gourmand, parfait pour une petite faim ou pour accompagner d'autres plats" 
+ 
     }, 
     { 
-        "id":6, 
-        "name":"name6", 
-        "price": 0.00, 
-        "image":"Images/Food_images/pies/gateau06.jpg", 
-        "alt": "gateau06", 
-        "description":"" 
+        "id":10, 
+        "name":"Mini Burger pate", 
+        "price": 100, 
+        "image":"Images/Food_images/salty/salty03.jpg", 
+        "alt": "salty03", 
+        "description":"Un mini burger sale est un petit hamburger préparé avec du pain moelleux, tranche de pate assaisonnée de façon savoureuse, du fromage fondu, des légumes croquants et une sauce maison riche en saveurs. Le tout est assemblé de manière à former un mini burger délicieux et gourmand, parfait pour une petite faim ou pour accompagner d'autres plats" 
     }, 
     { 
-        "id":7, 
-        "name":"name7", 
-        "price": 0.00, 
-        "image":"Images/Food_images/pies/gateau07.jpg", 
-        "alt": "gateau07", 
-        "description":"" 
-    } 
+        "id":11, 
+        "name":"barquette au crevette", 
+        "price": 150, 
+        "image":"Images/Food_images/salty/salty04.jpg", 
+        "alt": "salty04", 
+        "description":"Une barquette au crevette est une délicieuse entrée ou un plat léger, souvent servi dans les restaurants ou préparé à la maison. Cette recette populaire consiste en général en des crevettes cuites et décortiquées, servies dans une barquette ou une coque comestible faite à partir de légumes ou de pain. Les crevettes sont souvent assaisonnées avec des herbes fraîches comme le persil ou l'aneth, du jus de citron, de l'ail et parfois une touche de sauce piquante pour ajouter de la saveur. Les barquettes au crevette sont appréciées pour leur fraîcheur, leur simplicité et leur présentation attrayante. Elles peuvent être servies comme hors-d'œuvre lors d'une fête ou comme plat principal pour un repas léger." 
+ 
+    }, 
+    { 
+        "id":12, 
+        "name":"mini sandwitch au thon", 
+        "price": 100, 
+        "image":"Images/Food_images/salty/salty06.jpg", 
+        "alt": "salty06", 
+        "description":"Les mini sandwiches au thon sont de délicieuses bouchées qui combinent le goût savoureux du thon avec des ingrédients frais et équilibrés. Habituellement, ces mini sandwiches sont préparés en utilisant du pain de mie, des petits pains ou des petits croissants, coupés en deux pour créer une base. Ensuite, une garniture composée de thon émietté mélangé avec de la mayonnaise, parfois agrémenté d'oignons verts, de céleri, de cornichons ou d'autres condiments, est déposée sur la moitié inférieure du pain. Pour ajouter une touche de fraîcheur et de croquant, on peut également ajouter des feuilles de laitue ou des tranches de tomate. La moitié supérieure du pain est ensuite placée dessus pour former un sandwich. Ces mini sandwiches au thon sont parfaits pour les buffets, les pique-niques ou les déjeuners rapides, et sont appréciés pour leur saveur délicieuse et leur facilité de préparation." 
+    },    
+    { 
+        "id":13, 
+        "name":"mini pizza", 
+        "price": 80,
+        "image":"Images/Food_images/salty/salty08.jpg", 
+        "alt": "salty08",
+        "description":"Les mini pizzas sont de petites portions de pizza individuelles, parfaites pour une collation ou comme hors-d'œuvre lors d'une fête. Elles commencent généralement avec une base de pâte à pizza, soit pré-faite soit faite maison, coupée en petites rondelles ou formée en petits cercles. Ces mini bases sont ensuite garnies de sauce tomate, de fromage et d'autres ingrédients au choix, comme des tranches de pepperoni, des légumes coupés en dés, des champignons, des olives ou même des morceaux de poulet ou de jambon.Une fois garnies, les mini pizzas sont cuites au four jusqu'à ce que la pâte soit dorée et que le fromage soit fondu et légèrement doré. Elles peuvent être servies chaudes, directement sorties du four, ou à température ambiante pour les occasions où elles sont préparées à l'avance. Les mini pizzas offrent une grande polyvalence en termes de garnitures, ce qui permet à chacun de personnaliser sa propre portion selon ses goûts. Elles sont appréciées pour leur taille pratique, leur facilité de préparation et leur délicieux goût qui rappelle celui des pizzas traditionnelles" 
+    }
 ]

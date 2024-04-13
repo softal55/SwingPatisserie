@@ -10,7 +10,7 @@
 
   <body>
     <header id="main-header">
-      <img id="swing-logo" src="Images/logo.png" alt="Swing Logo" />
+      <img id="swing-logo" src="/Images/logo.png" alt="Swing Logo" />
       <nav>
         <ul class="nav-list">
           <li><a href="/index.html" id="homelink">ACCUEIL</a></li>
@@ -23,64 +23,71 @@
       </nav>
     </header>
     <main id="main">
-      <h1>Contact us!</h1>
+      <h1>Contactez nous</h1>
       <form action="contact.html" method="post" id="contactForm">
         <fieldset>
-          <legend>Your information</legend>
-          <label for="firstname">First Name</label>
+          <legend>vos information</legend>
+          <label for="Prenom">Prenom</label>
           <input
             type="text"
-            id="firstname"
-            name="firstname"
-            placeholder="Enter your first name"
+            id="Prenom"
+            name="Prenom"
+            placeholder="Entrer votre Prenom"
           />
-          <label for="lastname">Last Name</label>
+          <label for="Nom de famille">Nom de famille</label>
           <input
             type="text"
-            id="lastname"
-            name="lastname"
-            placeholder="Enter your last name"
+            id="Nom de famille"
+            name="Nom de famille"
+            placeholder="Entrer votre Nom de famille"
           />
-          <label for="country">Country</label>
-          <select id="country" name="country">
-            <option value="Algeria">Algeria</option>
+          <label for="Pays">Pays</label>
+          <select id="Pays" name="Pays">
+            <option value="Algerie">Algerie</option>
+            <option value="belgique">Belgique</option>
+            <option value="Usa">Usa</option>
           </select>
 
-          <label for="birthday">Birthday</label>
-          <input type="date" id="birthday" name="birthday" />
+          <label for="Anniversaire">Anniversaire</label>
+          <input type="date" id="Anniversaire" name="Anniversaire" />
 
           <label for="email">Email</label>
           <input type="email" id="email" name="email" />
         </fieldset>
         <fieldset>
-          <legend>The reason you are contacting us</legend>
-          <label>I have a</label><br />
+          <legend>La raison pour laquelle vous nous contactez</legend>
+          <label>J'ai une</label><br />
           <input
             type="radio"
             id="question"
-            name="contactReason"
+            name="La raison pour laquelle vous nous contactez"
             value="Question"
             checked
           />
-          <label for="question">Question</label><br />
-          <input type="radio" id="remark" name="contactReason" value="Remark" />
-          <label for="remark">Remark</label><br />
+          <label for="Question">Question</label><br />
+          <input
+            type="radio"
+            id="Remarque"
+            name="La raison pour laquelle vous nous contactez"
+            value="Remarque"
+          />
+          <label for="Remarque">Remarque</label><br />
           <input
             type="radio"
             id="complaint"
-            name="contactReason"
-            value="Complaint"
+            name="La raison pour laquelle vous nous contactez"
+            value="Se plaindre"
           />
-          <label for="complaint">Complaint</label>
-          <label for="question">Your question</label>
+          <label for="Se plaindre">Se plaindre</label>
+          <label for="question">votre question</label>
           <textarea
             id="question"
             name="question"
-            placeholder="Write your text here"
+            placeholder="Ecrire votre texte ici"
             style="height: 150px"
           ></textarea>
         </fieldset>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Soumettre" />
       </form>
     </main>
   </body>

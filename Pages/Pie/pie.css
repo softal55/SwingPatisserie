@@ -13,7 +13,7 @@
   padding: 0px 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 70px;
+  gap: 20px;
 }
 .add-to-cart {
   background-color: purple;
