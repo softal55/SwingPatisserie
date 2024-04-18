@@ -3,11 +3,20 @@ let shopingList = document.getElementById("shoping-list");
 let foodList = [];
 var cart = [];
 function addToCart(item) {
+  
   cart.push(item);
   const total = cart.reduce((acc, curr) => acc + parseFloat(curr.price), 0);
+  
+  // Store cart items in localStorage
+  localStorage.setItem('cart', JSON.stringify(cart));
+  localStorage.setItem('total', total);
+
   const cartWindow = window.open('/Pages/Cart/cart.html');
   cartWindow.onload = function() {
-    this.initCart(cart, total);
+    // Retrieve cart items from localStorage
+    const storedCart = JSON.parse(localStorage.getItem('cart'));
+    const storedTotal = parseFloat(localStorage.getItem('total'));
+    this.initCart(storedCart, storedTotal);
   };
 }
 
@@ -21,7 +30,7 @@ addDataToHtml = (value) => {
 <button class="add-to-cart">ADD TO CART</button>
 <div class="sub">
   <h2 id="food-name" onclick="openDetailsInNewTab(${item.id})">${item.name}</h2>
-  <div id="price">${item.price}</div>
+  <div id="price">${item.price} DA</div>
 </div>`;
 
     newFood.querySelector('.add-to-cart').addEventListener('click', () => addToCart(item));
