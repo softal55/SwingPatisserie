@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swing Patisserie</title>
+  <link rel="icon" href="/Images/header_logo.png">
+  <link rel="stylesheet" href="/Shared/header.css" />
+  <link rel="stylesheet" href="Order.css" />
+  
+</head>
+<body>
+  <header id="main-header">
+    <img id="swing-logo" src="/Images/logo.png" alt="Swing Logo" />
+    <nav>
+      <ul class="nav-list">
+        <li><a href="/index.html" id="homelink">ACCUEIL</a></li>
+        <li><a href="/Pages/Pie/pie.html" id="pielink">TARTES</a></li>
+        <li><a href="/Pages/Contact/contact.html" id="contactlink">CONTACT</a></li>
+        <li><a href="/Pages/About/about.html" id="aboutlink">À PROPOS</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>Take your order</h1>
+  <form action="Order.html" method="post" id="orderForm">
+    <fieldset>
+      <legend>vos information</legend>
+      <label for="Prenom">Prenom</label>
+      <input
+        type="text"
+        id="Prenom"
+        name="Prenom"
+        placeholder="Entrer votre Prenom"
+      />
+      <label for="Nom de famille">Nom de famille</label>
+      <input
+        type="text"
+        id="Nom de famille"
+        name="Nom de famille"
+        placeholder="Entrer votre Nom de famille"
+      />
+      <label for="Pays">Pays</label>
+      <select id="Pays" name="Pays">
+        <option value="Algerie">Algerie</option>
+        <option value="France">France</option>
+        <option value="Usa">Usa</option>
+      </select>
+
+      <label for="Date de naissance">Date de naissance</label>
+      <input type="date" id="Date de naissance" name="Date de naissance" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+    </fieldset>
+    <fieldset>
+
+      <legend>Souhaitez-vous des ajouts ou des modifications à votre commande ?</legend>
+      
+      <textarea
+        id="demande"
+        name="demande"
+        placeholder="Ecrire votre texte ici"
+        style="height: 150px"
+      ></textarea>
+    </fieldset>
+    <input type="submit"  value="Soumettre" />
+  </form>
+</main>
+  <script>
+    function getData(form) {
+        var formData = new FormData(form);
+        var data = '';
+
+        for (var pair of formData.entries()) {
+            data += pair[0] + ": " + pair[1] + "\n";
+        }
+
+        alert(data);
+
+    }
+
+    document.getElementById("orderForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+        getData(e.target);
+    });
+
+</script>
+
+  
+</body>
+</html>

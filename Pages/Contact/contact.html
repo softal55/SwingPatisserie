@@ -48,8 +48,8 @@
             <option value="Usa">Usa</option>
           </select>
 
-          <label for="Anniversaire">Anniversaire</label>
-          <input type="date" id="Anniversaire" name="Anniversaire" />
+          <label for="Date de naissance">Date de naissance</label>
+          <input type="date" id="Date de naissance" name="Date de naissance" />
 
           <label for="email">Email</label>
           <input type="email" id="email" name="email" />
@@ -90,5 +90,24 @@
         <input type="submit" value="Soumettre" />
       </form>
     </main>
+    <script>
+      function getData(form) {
+          var formData = new FormData(form);
+          var data = '';
+
+          for (var pair of formData.entries()) {
+              data += pair[0] + ": " + pair[1] + "\n";
+          }
+
+          alert(data);
+
+      }
+
+      document.getElementById("contactForm").addEventListener("submit", function (e) {
+          e.preventDefault();
+          getData(e.target);
+      });
+
+  </script>
   </body>
 </html>
